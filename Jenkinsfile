@@ -6,7 +6,8 @@ pipeline {
             steps{
 
                 script{
-                    def now = new Date()
+                    echo "hello"
+                    // def now = new Date()
                     // buildVersion = now.format("yyyy.MM.dd.HHmm", TimeZone.getTimeZone('UTC'))
                     // currentBuild.displayName = "${buildVersion}"
                     // env.DPLVERSION = "${buildVersion}"
