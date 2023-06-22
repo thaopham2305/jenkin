@@ -11,7 +11,7 @@ pipeline {
                 //     // currentBuild.displayName = "${buildVersion}"
                 //     // env.DPLVERSION = "${buildVersion}"
                 // }
-                // echo 'Hello world'
+                echo 'Hello world'
             }
         }
 
